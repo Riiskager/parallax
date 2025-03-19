@@ -2,5 +2,7 @@ body{
     width: auto;
     height: 200vw;
     background: rgb(2,0,36);
-background: linear-gradient( rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(77,25,153,1) 65%, rgba(78,44,224,1) 84%, rgba(236,0,255,1) 100%);
+    background: linear-gradient( rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(77,25,153,1) 65%, rgba(78,44,224,1) 84%, rgba(236,0,255,1) 100%);
+    color: azure;
 }
+
