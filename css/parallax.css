@@ -1,61 +1,118 @@
 body{
-    width: auto;
-    height: 300vw;
+    overflow-x: hidden;
+    max-width: 100vw;
+    height: 150vw;
     display: flex;
     background: rgb(2,0,36);
     background: linear-gradient( rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(77,25,153,1) 65%, rgba(78,44,224,1) 84%, rgba(236,0,255,1) 100%);
     color: azure;
 }
 
-#stars {
-    width: 100vw;
-    height: auto;
-    position: absolute;
+::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers */
 }
 
+#stars {
+    position: absolute;
+    width: 100vw;
+}
+
+
+.pink{
+    position: absolute;
+    top: 800px;
+    left: 50%
+}
 .pink img{
-    width: 30%;
-    height: auto;
-    z-index: -1;
+    width: 200px;
+    position: absolute;
 }
 
 .neptun{
     width: 100px;
     height: 100px;
-    color: white;
-    position: relative;
-    left: 600px;
-    top: 300px;
+    position: absolute;
+    z-index: -3;
+    top: 600px;
+    left: 10px;
 }
 .neptun img{
     width: 100px;
     height: auto;
+    margin-left: 100px;
 }
 
+.saturn{
+    position: absolute;
+    top:800px;
+    left: 70%;
+}
 .saturn img {
+    width: 300px;
+    height: auto; 
+}
+
+.dino{
+    position: absolute;
+    top: 900px;
+    left: 300px;
+}
+.dino img {
+    width: 200px;
+    height: auto;
+}
+
+.pluto{
+    position: absolute;
+    left: 80%;
+}
+.pluto img {
+    width: 400px;
+    height: auto;
+}
+
+.sol{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+.sol img {
     width: 40%;
     height: auto;
+    margin-left: 250px;
+}
+
+.ufo{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.ufo img {
+    width: 200px;
+    height: auto; 
 }
 
 .rellax2{
     width: 100px;
     height: 100px;
     color: white;
-    background-color:blueviolet;
     display: flex;
     position: relative;
-    left: 300px;
-    top: 200px;
 }
 
 .stjerne{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    top: 800px;
-    left: -200px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 1200px;
+    left: 200px;
 }
 .stjerne img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
 }

@@ -5,43 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/parallax.css">
     <title>Parallax</title>
 </head>
 
-<body>
+<body onscroll="spacesound()">
+    <audio id="slyd">
+        <source src="./lyd/mysterious-dark-background-310162.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
 
     <div id="starsdiv" 
     data data-rellax-speed="-3"
     data-rellax-zindex="-10">
-        <img src="./img/stars.webp" id="stars">
+    <img src="img/stjernehimmel.webp" alt="stjernehimmel" id="stars">
     </div>
 
     <div class="pink" 
-    data-rellax-speed="3"
+    data-rellax-zindex="-1"
     data-rellax-zindex="-1">
         <img src="./img/denpinke.png" alt="pinkplanet">
     </div>
 
 
     <div class="neptun"
-    data-rellax-speed="-4"
-    data-rellax-percentage="0.5">
+    data-rellax-speed="0.5"
+    data-rellax-percentage="0.5"
+    data-rellax-zindex="-2">
         <img src="./img/neptun.png" alt="neptun">
       </div>
 
     <div class="saturn"
+    data-rellax-zindex="-2"
       data-rellax-percentage="0.5"
-      data-rellax-zindex="-2">
+      data-rellax-zindex="-3">
       <img src="./img/saturn.png" alt="saturn">
     </div>
-        
+
+    <div class="dino"
+    data-rellax-speed="1"
+    data-rellax-percentage="0.5">
+        <img src="./img/dinoplaneten.png" alt="dino">
+    </div>
+
     <div class="stjerne"
-    data-rellax-speed="-4"
+    data-rellax-speed="-2"
     data-rellax-percentage="0.5"
     >
     <img src="./img/Stjerne.png" alt="stjerne">
     </div>
+
+    <div class="pluto"
+    data-rellax-zindex="2"
+    data-rellax-percentage="0.5"
+    data-rellax-zindex="-20">
+        <img src="./img/pluto.png" alt="pluto">
+    </div>
+
+    <div class="sol"
+    data-rellax-zindex="-8"
+    data-rellax-percentage="0.5"
+    data-rellax-zindex="-7">
+        <img src="./img/sol.png" alt="sol">
+    </div>
+
+    <div class="ufo"
+    data-aos="fade-up-left">
+        <img src="./img/losUFO.png" alt="ufo">
+    </div>
+
+    <footer>
+        <img src="./img/trees.webp" alt="trees">
+    </footer>
 
 <script src="js/parallax.js"></script>
 </body>
