@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,29 +11,38 @@
 
 <body>
 
-    <div class="rellax" data-rellax-speed="-3">
-        I’m slow and smooth
+    <div id="starsdiv" 
+    data data-rellax-speed="-3"
+    data-rellax-zindex="-10">
+        <img src="./img/stars.webp" id="stars">
     </div>
-      
-    <div class="rellax" data-rellax-speed="7">
-        I’m super fast!!
-    </div>
-      
-    <div class="rellax" data-rellax-speed="-5">
-        I’m extra slow and smooth
-    </div> 
 
-    <div class="rellax1"
+    <div class="pink" 
+    data-rellax-speed="3"
+    data-rellax-zindex="-1">
+        <img src="./img/denpinke.png" alt="pinkplanet">
+    </div>
+
+
+    <div class="neptun"
     data-rellax-speed="-4"
     data-rellax-percentage="0.5">
-        I’m slow and smooth
+        <img src="./img/neptun.png" alt="neptun">
       </div>
 
-      <div class="rellax2"
-      data-rellax-percentage="0.5">
-          I’m slow and smooth
-        </div>
-    
+    <div class="saturn"
+      data-rellax-percentage="0.5"
+      data-rellax-zindex="-2">
+      <img src="./img/saturn.png" alt="saturn">
+    </div>
+        
+    <div class="stjerne"
+    data-rellax-speed="-4"
+    data-rellax-percentage="0.5"
+    >
+    <img src="./img/Stjerne.png" alt="stjerne">
+    </div>
+
 <script src="js/parallax.js"></script>
 </body>
 </html>

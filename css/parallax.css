@@ -1,24 +1,42 @@
 body{
     width: auto;
-    height: 200vw;
+    height: 300vw;
     display: flex;
     background: rgb(2,0,36);
     background: linear-gradient( rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(77,25,153,1) 65%, rgba(78,44,224,1) 84%, rgba(236,0,255,1) 100%);
     color: azure;
 }
 
+#stars {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+}
 
+.pink img{
+    width: 30%;
+    height: auto;
+    z-index: -1;
+}
 
-
-.rellax1{
+.neptun{
     width: 100px;
     height: 100px;
     color: white;
-    background-color: aquamarine;
     position: relative;
     left: 600px;
     top: 300px;
 }
+.neptun img{
+    width: 100px;
+    height: auto;
+}
+
+.saturn img {
+    width: 40%;
+    height: auto;
+}
+
 .rellax2{
     width: 100px;
     height: 100px;
@@ -28,4 +46,16 @@ body{
     position: relative;
     left: 300px;
     top: 200px;
+}
+
+.stjerne{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 800px;
+    left: -200px;
+}
+.stjerne img{
+    width: 200px;
+    height: 200px;
 }
